@@ -74,14 +74,4 @@ p {
   font-size: 14px;
   margin: 0 10px 10px;
 }
-@media (max-width: 1024px) {
-  .portfolio__item {
-    flex-basis: calc((100% - 30px) / 2); /* 2 в ряд */
-  }
-}
 
-@media (max-width: 600px) {
-  .portfolio__item {
-    flex-basis: 100%; /* 1 в ряд */
-  }
-}
