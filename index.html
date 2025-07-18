@@ -3,61 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WebStudio</title>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <title>WebStudio</title><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:wdth,wght@75..100,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <!-- Header -->
-  <header>
-    <div>
-      <h1>WebStudio</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Студія</a></li>
-          <li><a href="portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+  <header class="header container">
+     <a href="/" class="header__logo"><span class="web">Web</span>Studio</a>
+      <nav class="nav">
+        <ul class="header__list">
+          <li class="header__item"><a class="header__link" href="index.html">Студія</a></li>
+          <li class="header__item"><a class="header__link" href="portfolio.html">Портфоліо</a></li>
+          <li class="header__item"><a class="header__link" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="header__contact">
         <a href="mailto:info@webstudio.com">info@webstudio.com</a>
-        <span>+38 096 111 11 11</span>
+       <a href="tel:+380961111111">+38 096 111 11 11</a>
       </div>
-    </div>
   </header>
 
   <!-- Hero Section -->
-  <section>
+  <section class="hero">
     <h2 class="hero__title">Ефективні рішення для вашого бізнесу</h2>
-    <button>Замовити послугу</button>
+    <button class="hero__btn">Замовити послугу</button>
   </section>
 
   <!-- Features -->
-  <section>
-    <div class="hero">
-      <h3 class="hero__title">Увага до деталей</h3>
-      <p class="hero__description">Ідейні міркування, а також початок повсякденної роботи з формування позиції.</p>
+  <section class="features">
+    <div class="container">
+    <div class="features">
+      <h3 class="features__title">Увага до деталей</h3>
+      <p class="features__description">Ідейні міркування, а також початок повсякденної роботи з формування позиції.</p>
     </div>
-    <div class="hero">
-      <h3 class="hero__title">Пунктуальність</h3>
-      <p class="hero__description">Завдання організації, особливо ж рамки і місце навчання кадрів тягне у себе.</p>
+    <div class="features">
+      <h3 class="features__title">Пунктуальність</h3>
+      <p class="features__description">Завдання організації, особливо ж рамки і місце навчання кадрів тягне у себе.</p>
     </div>
-    <div class="hero">
-      <h3 class="hero__title">Планування</h3>
-      <p class="hero__description">Так само консультація з широким активом значною мірою зумовлює.</p>
+    <div class="features">
+      <h3 class="features__title">Планування</h3>
+      <p class="features__description">Так само консультація з широким активом значною мірою зумовлює.</p>
     </div>
     <div>
-      <h3 class="hero__title">Сучасні технології</h3>
-      <p class="hero__description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+      <h3 class="features__title">Сучасні технології</h3>
+      <p class="features__description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+    </div>
     </div>
   </section>
 
-  <section>
-    <h2 class="hero__title">Чим ми займаємося</h2>
+  <section class="work">
+    <h2 class="work__title">Чим ми займаємося</h2>
     <div>
-      <img src="img/img.jpg" alt="Приклад дизайну">
-      <img src="img/img (1).jpg" alt="Розробка додатків">
-      <img src="img/img (2).jpg" alt="Кольорові рішення">
+      <img class="work__img" src="img/img.jpg" alt="Приклад дизайну">
+      <img class="work__img" src="img/img (1).jpg" alt="Розробка додатків">
+      <img class="work__img" src="img/img (2).jpg" alt="Кольорові рішення">
     </div>
   </section>
 
@@ -66,7 +73,7 @@
 
 
 
-  <section>
+  <section class="team">
     <h2>Наша команда</h2>
     <div>
       <div class="hero">
