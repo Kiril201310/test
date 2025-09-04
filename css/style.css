@@ -42,7 +42,7 @@ border: none;
   gap: 20px;
 }
 .main-menu{
-background-image: url(/img/Img090.jpg);
+background-image: url(./img/Img090.jpg);
 background-repeat: no-repeat;
 height: 600px;
 padding-top: 200px;
